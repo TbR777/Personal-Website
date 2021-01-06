@@ -73,14 +73,14 @@ h5{
 .bottom-image{
     background-image: url("Images/button.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 800px 200px;
     background-position: center;
-    box-shadow: 10px 10px 40px rgb(233, 212, 212);
-    width: 100%;
-    height: 40%;
-    text-align: left;
+    height: 200px;
 }
 h6{
+    font-size: 20px;
+}
+p{
     font-size: 20px;
 }
 .footer-area{
