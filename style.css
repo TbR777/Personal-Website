@@ -40,5 +40,51 @@ h4{
     text-align: center;
     color: darkslategrey;
 }
-
- 
+.column{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px rgb(233, 212, 212);
+    background-color: white;
+    height: 100%;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+h3{  
+    color: darkslategrey;
+}
+h5{
+    color:black;
+    font-size: 30px;
+}
+.bti-button{
+    background-image: linear-gradient( lightsalmon, tomato);
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    position: absolute;
+}
+.bottom-image{
+    background-image: url("Images/button.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 10px 10px 40px rgb(233, 212, 212);
+    width: 100%;
+    height: 40%;
+    text-align: left;
+}
+h6{
+    font-size: 20px;
+}
+.footer-area{
+    margin-bottom: 0;
+    text-align: center;
+    color: darkslategrey;
+}
